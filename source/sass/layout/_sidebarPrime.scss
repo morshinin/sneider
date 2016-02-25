@@ -1,0 +1,33 @@
+// _sidebarPrime.scss
+.l-sidebarPrime {
+  lost-column: 2/5;
+  background: $darkBg;
+  color: $textOnDarkBg;
+  border-right: 35px solid #fff;
+  padding: 26px 54px 31px 33px;
+  &_title {
+    // font-weight: 800;
+    font-family: $secondFont;
+    font-size: 40px;
+    line-height: $baseLine;
+    margin-bottom: 35px;
+    letter-spacing: 1.5px;
+  }
+  &_list {
+    list-style-type: none;
+    margin-bottom: 72px;
+  }
+  &_listItem {
+    margin-bottom: 22px;
+    letter-spacing: 0.4px;
+  }
+  &_date {
+    font-style: italic;
+  }
+  &_link {
+    color: $textOnDarkBg;
+    display: block;
+    text-align: right;
+    text-decoration: underline;
+  }
+}

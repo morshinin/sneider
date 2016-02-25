@@ -1,0 +1,30 @@
+// _footer.scss
+.l-footer {
+  background-color: $darkBg;
+  color: $textOnDarkBg;
+  height: 220px;
+  padding-top: 45px;
+  &_copy {
+    lost-column: 1/3;
+    letter-spacing: 0.4px;
+  }
+  &_mail {
+    color: $textOnDarkBg;
+  }
+  &_menu {
+    lost-column: 1/3;
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  &_item {
+    margin-bottom: 4px;
+  }
+  &_link {
+    color: $textOnDarkBg;
+    text-decoration: underline;
+  }
+  &_companyInfo {
+    lost-column: 1/3;
+    padding-left: 101px;
+  }
+}

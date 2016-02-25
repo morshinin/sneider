@@ -1,0 +1,27 @@
+// _nav.scss
+.l-nav {
+  background: $darkBg;
+  height: 58px;
+  padding-top: 16px;
+  padding-left: 17px;
+  text-align: center;
+  &_menu {
+    list-style-type: none;
+  }
+  &_item {
+    display: inline;
+    padding: 0 27px 0 0;
+    position: relative;
+    &:not(:last-of-type):after {
+      content: '|';
+      position: absolute;
+      color: $textOnDarkBg;
+      right: 6px;
+    }
+  }
+  &_link {
+    color: $textOnDarkBg;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+  }
+}

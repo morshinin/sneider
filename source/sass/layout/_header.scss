@@ -1,0 +1,29 @@
+// _header.scss
+.l-header {
+  height: 199px;
+  background: $secondaryBg;
+  padding: 45px 0;
+  &_logo {
+    lost-column: 1/3;
+  }
+  &_quote {
+    lost-column: 1/3;
+    padding-top: 22px;
+    padding-left: 78px;
+    letter-spacing: 0.4px;
+    font-size: 17px;
+  }
+  &_contact {
+    lost-column: 1/3;
+    padding-top: 12px;
+    padding-left: 31px;
+    letter-spacing: 0.7px;
+  }
+  &_phone {
+    font-weight: 800;
+    font-size: 31px;
+    display: block;
+    color: $baseTextColor;
+    margin-bottom: 24px;
+  }
+}
