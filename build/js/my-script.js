@@ -16,5 +16,7 @@
   month[10] = '11';
   month[11] = '12';
   var n = month[d.getMonth()];
-  document.getElementById('date').innerHTML = d.getDate() + '.' + n + '.' + d.getFullYear() + '!';
+  var y = d.getFullYear();
+  y = y.toString().substr(2,2);
+  document.getElementById('date').innerHTML = d.getDate() + '.' + n + '.' + y + '!';
 }());

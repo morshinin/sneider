@@ -507,9 +507,10 @@ ul {
 .l-sidebarPrime {
   width: calc(99.99% * 2/5 - (10px - 10px * 2/5));
   background: #777;
+  background: -webkit-linear-gradient(left, #777 91%, #fff 9%);
+  background: linear-gradient(90deg, #777 91%, #fff 9%);
   color: #fff;
-  border-right: 35px solid #fff;
-  padding: 26px 54px 31px 33px; }
+  padding: 26px 88px 31px 33px; }
 
 .l-sidebarPrime:nth-child(1n){
   float: left;
@@ -585,7 +586,7 @@ ul {
     line-height: 23px;
     margin-bottom: 20px;
     letter-spacing: 0.5px;
-    padding-right: 15px; }
+    padding-right: 13px; }
     .l-main_text:last-of-type {
       margin-bottom: 25px; }
   .l-main_subtitle {
