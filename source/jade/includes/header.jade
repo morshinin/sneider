@@ -1,4 +1,15 @@
 //- header.jade
+
+// 
+  .message.isNotActive#operamini(style={display: 'none'})
+  p Извините, но этот сайт не поддерживает Opera Mini. Пожалуйста используйте другой браузер.
+
+<!--[if lte IE 6]>
+<div class="message">
+<p>Извините, но этот сайт не поддерживает Internet Explorer 6 и ниже. Пожалуйста обновите ваш браузер или <a href="http://browsehappy.com/">воспользуйтесь другим</a>.</p>
+</div>
+<![endif]-->
+
 header.l-header
   .l-container
     img.l-header_logo(src="images/icons/logo.png", alt="Название компании логотип")

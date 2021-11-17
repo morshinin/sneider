@@ -1,9 +1,13 @@
 // _sidebarPrime.scss
+.no-borderradius .l-sidebarPrime {
+  border-radius: 10px;
+}
 .l-sidebarPrime {
   lost-column: 2/5;
   background: $darkBg;
   background: linear-gradient(90deg, $darkBg 91%, $mainBg 9%);
   color: $textOnDarkBg;
+  border-radius: 10px;
   // outline: none;
   // border-right: 35px solid #fff;
   padding: 26px 88px 31px 33px;

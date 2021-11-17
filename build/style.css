@@ -422,6 +422,25 @@ ul {
 .text-right {
   text-align: right; }
 
+.message {
+  width: 100%;
+  padding: 50px 20px;
+  background: red;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center; }
+  .message p {
+    font-size: 2em;
+    line-height: 1.5em; }
+  .message a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline; }
+
+.isNotActive,
+#operamini {
+  display: none; }
+
 .l-header {
   height: 199px;
   background: #dcdcdc;
@@ -504,12 +523,16 @@ ul {
     font-size: 18px;
     letter-spacing: 0.3px; }
 
+.no-borderradius .l-sidebarPrime {
+  border-radius: 10px; }
+
 .l-sidebarPrime {
   width: calc(99.99% * 2/5 - (10px - 10px * 2/5));
   background: #777;
   background: -webkit-linear-gradient(left, #777 91%, #fff 9%);
   background: linear-gradient(90deg, #777 91%, #fff 9%);
   color: #fff;
+  border-radius: 10px;
   padding: 26px 88px 31px 33px; }
 
 .l-sidebarPrime:nth-child(1n){

@@ -62,3 +62,25 @@ ul {
 .text-right {
   text-align: right;
 }
+.message {
+  width: 100%;
+  padding: 50px 20px;
+  background: red;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+  p {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+  a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+.isNotActive,
+#operamini {
+  display: none;
+}

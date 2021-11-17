@@ -5,8 +5,19 @@
     <title>Название компании</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="js/modernizr-sneider.js"></script>
   </head>
   <body>
+    <!-- 
+    .message.isNotActive#operamini(style={display: 'none'})
+    p Извините, но этот сайт не поддерживает Opera Mini. Пожалуйста используйте другой браузер.
+    
+    --><!--[if lte IE 6]>
+    <div class="message">
+    <p>Извините, но этот сайт не поддерживает Internet Explorer 6 и ниже. Пожалуйста обновите ваш браузер или <a href="http://browsehappy.com/">воспользуйтесь другим</a>.</p>
+    </div>
+    <![endif]-->
     <header class="l-header">
       <div class="l-container"><img src="images/icons/logo.png" alt="Название компании логотип" class="l-header_logo">
         <p class="l-header_quote">Распродажа до <span id="date">!</span></p>
@@ -74,6 +85,12 @@
         </p>
       </div>
     </footer>
+    <script>
+      var isOperaMini = (navigator.userAgent.indexOf('Opera Mini'));
+      if (isOperaMini) {
+        jQuery("#operamini").show();
+      }
+    </script>
     <script src="js/date.js"></script>
     <script src="js/my-script.js"></script>
   </body>

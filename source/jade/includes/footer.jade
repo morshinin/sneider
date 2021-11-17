@@ -21,3 +21,8 @@ footer.l-footer
       | &mdash;
       br
       | компания &laquo;Шнайдер Консалт&raquo;
+script.
+  var isOperaMini = (navigator.userAgent.indexOf('Opera Mini'));
+  if (isOperaMini) {
+    jQuery("#operamini").show();
+  }
